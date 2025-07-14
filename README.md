@@ -216,36 +216,6 @@ This repository explores cutting-edge optimization techniques that are reshaping
 
 ---
 
-## 🛠 Repository Structure
-
-```
-notebooks/
-├── 01_kv_caching/
-├── 02_flash_attention/
-├── 03_quantization/
-├── 04_speculative_decoding/
-├── 05_gradient_checkpointing/
-├── 06_mixed_precision/
-├── 07_lora/
-├── 08_linear_attention/
-├── 09_pruning/
-├── 10_knowledge_distillation/
-├── 11_dynamic_batching/
-├── 12_tensor_fusion/
-├── 13_pipeline_parallelism/
-├── 14_gradient_accumulation/
-├── 15_data_loading/
-└── 16_lr_scheduling/
-
-utils/
-├── profiling_tools.py
-├── memory_utils.py
-├── visualization.py
-└── benchmarking.py
-```
-
----
-
 ## 🔍 Key Characteristics
 
 Each technique in this collection shares these important properties:
@@ -255,31 +225,6 @@ Each technique in this collection shares these important properties:
 ✅ **Implementable in notebooks** - Practical hands-on learning opportunities  
 ✅ **Practical relevance** - Used in real production systems  
 ✅ **Educational value** - Teaches fundamental concepts in AI optimization  
-
----
-
-## 🚦 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-repo/ai-optimization-techniques
-   cd ai-optimization-techniques
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Start with the basics**
-   ```bash
-   jupyter notebook notebooks/01_kv_caching/
-   ```
-
-4. **Run benchmarks**
-   ```bash
-   python utils/benchmarking.py --technique kv_caching
-   ```
 
 ---
 
